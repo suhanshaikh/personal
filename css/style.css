@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #D6D2D2;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #353535;
+  padding: 10px 8%;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.logo {
+  font-size: ;
+}
+
+.row1 {
+  margin: auto 0;
+  font-family: 'Rock Salt', cursive;
+}
+
+.row1 h3 {
+  font-family: 'Rock Salt', cursive;
+}
+
+.links {
+  margin: auto 0;
+  width: 50%;
+  justify-content: center;
+  display: inline-block;
+  text-align: right;
+}
+
+.links a {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 3%;
+  margin-left: auto;
+}
+
+/* about me section */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-img {
+  width: 50%;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.about-content {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-content h4 {
+  font-size: 1.2em;
+}
+
+.about-content a {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #21AEEA;
+  width: 75%;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Education {
+  margin: 0 15%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex h4 {
+  width: 50%;
+}
+
+.flex p {
+  width: 50%
+}
+
+.borderEd {
+  background-color: #252525;
+  width: 25%;
+  height: 1px;
+  margin: 0 auto;
+}
+
+/* skills  */
+.skillsHead {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skillrow {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.cardDiv {
+  width: 25%;
+  padding: 0 1%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card {
+  background-color: #252525;
+}
+
+.cardDiv img {
+  width: 100%;
+}
+
+.cardDiv a {
+  font-size: 1rem;
+  color: white;
+}
+
+.cardDiv p {
+  color: white;
+  text-align: left;
+}
+
+.footer {
+  height: 100px;
+  background-color: #252525;
+  width: 100%;
+  margin-top: 10px;
+  margin: 10 auto;
+  padding-top: 10px;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+@media only screen and (max-width:500px) {
+  .borderline {
+    width: 50%;
+    height: 1px;
+    background-color: #252525;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-size: 5vw;
+  }
+
+  .toggle {
+    position: relative;
+    padding: 4px 0;
+    height: 40px;
+    border: 1px solid white;
+    width: 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+  }
+
+  .ham {
+    content: "";
+    width: 2rem;
+    background-color: black;
+    height: 0.4rem;
+    margin-left: 15%;
+  }
+
+  .ham::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 2rem;
+    top: 5px;
+    background-color: black;
+    height: 0.4rem;
+  }
+
+  .ham::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 2rem;
+    top: 27px;
+    background-color: black;
+    height: 0.4rem;
+  }
+
+  .links {
+    width: 100%;
+    display: none;
+  }
+
+  .links a {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .main {
+    padding: 2% 5%;
+    padding-top: 2%;
+  }
+
+  .about {
+    margin: 2% 2%;
+    padding: 0;
+    width: 96%;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .about-img {
+    width: 65%;
+    margin: 0;
+    margin-left: 35%;
+  }
+
+  .about-content {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .about-content a {
+    width: 25%;
+    margin: 0;
+    text-align: center;
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0;
+  }
+
+  .about-content h4 {
+    font-family: 'Arvo', serif;
+    font-size: 4vw;
+  }
+
+  .aboutcontent p {
+    text-align: center;
+  }
+
+  .skills {
+    display: block;
+  }
+
+  /* education section */
+  .Education {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .edhead{
+    text-align: center;
+  }
+.flex{
+  background-color: #353535;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+  .flex h4 {
+    width: 100%;
+    color: white;
+  }
+
+  .flex p {
+    width: 100%;
+    color: white;
+  }
+
+  .flex h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+.educationdetails{
+  display: none;
+}
+.flex h4:nth-child(2)
+{
+order:2;
+}
+  .flex p {
+    order: 1;
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+  }
+
+  .row1 .flex p:nth-child(1)
+   {
+    display: none;
+
+   }
+
+/* skills section */
+.card{
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-align:center;
+}
+.cardcontent
+{
+  width: 55%;
+}
+.card a
+{
+  margin: 0 auto;
+}
+.card img
+{
+width: 45%;
+}
+.cardDiv
+{
+  width: 100%;
+}
+  .footer {
+    height: 50px;
+  }
+
+  .footer div {
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only (min-width:500px) and (max-width:768px) {
+  .skills {
+    display: block;
+  }
+
+  .flex1.flex2 {
+    display: flex;
+  }
+
+  .cardDiv {
+    width: 50%;
+  }
+
+  .skillrow {}
+}
